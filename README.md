@@ -10,8 +10,8 @@ Add-DnsServerResourceRecord
    [-TimeToLive <TimeSpan>]
    [-AgeRecord]
    [-AllowUpdateAny]
-   [-Type] <UInt16>
-   [-RecordData] <String>
+   -HostNameAlias <String>
+   [-CName]
    [-CimSession <CimSession[]>]
    [-ThrottleLimit <Int32>]
    [-AsJob]
